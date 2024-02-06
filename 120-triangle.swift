@@ -1,3 +1,10 @@
+//
+// Time complexity: O(N^2)
+// Space complexity: O(N)
+//
+//   where N is the number of elements in the triangle array
+//
+
 class Solution {
   func minimumTotal(_ triangle: [[Int]]) -> Int {
     var arr = triangle
